@@ -44,9 +44,9 @@ else
   # next time around we hope to upgrade
   gem 'rails', '3.2.12'
   gem 'strong_parameters' # remove when we upgrade to Rails 4
-  # we are using a custom sprockets repo to work around: https://github.com/rails/rails/issues/8099#issuecomment-16137638
+  # we are using a backported sprockets version to work around: https://github.com/rails/rails/issues/8099#issuecomment-16137638
   # REVIEW EVERY RELEASE
-  gem 'sprockets', git: 'https://github.com/SamSaffron/sprockets.git', branch: 'rails-compat'
+  gem 'sprockets', '2.2.2.backport2'
   gem 'redis-rails'
   gem 'activerecord-postgres-hstore'
   gem 'active_attr'
