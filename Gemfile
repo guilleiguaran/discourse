@@ -135,8 +135,6 @@ gem 'discourse_emoji', path: 'vendor/gems/discourse_emoji'
 group :assets do
   gem 'sass'
   gem 'sass-rails'
-  # Sam: disabling for now, having issues with our jenkins build
-  # gem 'turbo-sprockets-rails3'
   gem 'uglifier'
 end
 
