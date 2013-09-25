@@ -47,6 +47,8 @@ else
   # we are using a backported sprockets version to work around: https://github.com/rails/rails/issues/8099#issuecomment-16137638
   # REVIEW EVERY RELEASE
   gem 'sprockets', '2.2.2.backport2'
+  # we are using a backported sprockets-rails version compatible with sprockets 2.2.2.backport2
+  gem 'sprockets-rails', '2.0.0.backport1'
   gem 'redis-rails'
   gem 'activerecord-postgres-hstore'
   gem 'active_attr'
